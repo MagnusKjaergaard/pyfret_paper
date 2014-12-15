@@ -1,0 +1,134 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{forster48}
+Forster T (1948) Zweischenmolekulare energiewanderung undfluoreszenz.
+\newblock Annalen der Physik 2: 55--75.
+\bibAnnoteFile{forster48}
+
+\bibitem{ha96}
+Ha T, Enderle T, Ogletree DF, Chemla DS, Selvin PR, et~al. ({1996}) {Probing
+  the interaction between two single molecules: Fluorescence resonance energy
+  transfer between a single donor and a single acceptor}.
+\newblock Proc Natl Acad Sci USA {93}: {6264-6268}.
+\bibAnnoteFile{ha96}
+
+\bibitem{haran03}
+Haran G ({2003}) {Single-molecule fluorescence spectroscopy of biomolecular
+  folding}.
+\newblock {J Phys: Condens Matter} {15}: {R1291-R1317}.
+\bibAnnoteFile{haran03}
+
+\bibitem{schuler02}
+Schuler B, Lipman EA, Eaton WA ({2002}) {Probing the free-energy surface for
+  protein folding with single-molecule fluorescence spectroscopy}.
+\newblock {Nature} {419}: {743-747}.
+\bibAnnoteFile{schuler02}
+
+\bibitem{weiss00}
+Weiss S ({2000}) {Measuring conformational dynamics of biomolecules by single
+  molecule fluorescence spectroscopy}.
+\newblock {Nat Struct Mol Biol} {7}: {724-729}.
+\bibAnnoteFile{weiss00}
+
+\bibitem{deniz01}
+Deniz AA, Lawrence TA, Dahan M, Chemla DS, Schultz PS, et~al. (2001)
+  Ratiometric single-molecule studies of freely diffusing molecules.
+\newblock Annu Rev Phys Chem 52: 233--253.
+\bibAnnoteFile{deniz01}
+
+\bibitem{gell06}
+Gell C, Brockwell D, Smith A (2006) Handbook of single molecule fluorescence.
+\newblock Oxford: Oxford University Press.
+\bibAnnoteFile{gell06}
+
+\bibitem{nir06}
+Nir E, Michalet X, Hamadani KM, Laurence TA, Neuhauser D, et~al. ({2006})
+  {Shot-noise limited single-molecule FRET histograms: Comparison between
+  theory and experiments}.
+\newblock J Phys Chem B {110}: {22103-22124}.
+\bibAnnoteFile{nir06}
+
+\bibitem{kapanidis05}
+Kapanidis A, Laurence T, Lee N, Margeat E, Kong X, et~al. (2005)
+  Alternating-laser excitation of single molecules.
+\newblock Acc Chem Res 38: 532--533.
+\bibAnnoteFile{kapanidis05}
+
+\bibitem{muller05}
+Muller BK, Zaychikov E, Brauchle C, Lamb DC ({2005}) {Pulsed interleaved
+  excitation}.
+\newblock {Biophys J} {89}: {3508-3522}.
+\bibAnnoteFile{muller05}
+
+\bibitem{doose07}
+Doose S, Heilemann M, Michalet X, Weiss S, Kapanidis AN (2006) Periodic
+  acceptor excitation spectroscopy of single molecules.
+\newblock Eur Biophys J 36: 669--674.
+\bibAnnoteFile{doose07}
+
+\bibitem{kudryavtsev2012}
+Kudryavtsev V, Sikor M, Kalinin S, Mokranjac D, Seidel CAM, et~al. (2012)
+  Combining mfd and pie for accurate single-pair förster resonance energy
+  transfer measurements.
+\newblock ChemPhysChem 13: 1060--1078.
+\bibAnnoteFile{kudryavtsev2012}
+
+\bibitem{eggeling01}
+Eggeling C, Berger S, Brand L, Fries J, Schaffer J, et~al. (2001) Data
+  registration and selective single-molecule analysis using multi-parameter
+  fluorescence detection.
+\newblock J Biotechnol 86: 163--180.
+\bibAnnoteFile{eggeling01}
+
+\bibitem{wilson06}
+Wilson G (2006) Where's the real bottleneck in scientific computing?
+\newblock American Scientist 94: 5--6.
+\bibAnnoteFile{wilson06}
+
+\bibitem{merali10}
+Merali Z (2010) Computational science: Error, why scientific programming does
+  not compute.
+\newblock Nature 467: 775--777.
+\bibAnnoteFile{merali10}
+
+\bibitem{lee06}
+Lee NK, Kapanidis AN, Wang Y, Michalet X, Mukhopadhyay J, et~al. (2006)
+  Accurate fret measurements within single diffusing biomolecules using
+  alternating-laser excitation.
+\newblock Biophys J 88: 2939--2953.
+\bibAnnoteFile{lee06}
+
+\bibitem{numpy11}
+van~der Walt S, Colbert SC, G V (2011) The numpy array: A structure for
+  efficient numerical computation.
+\newblock Comput Sci Eng 13: 9--12.
+\bibAnnoteFile{numpy11}
+
+\bibitem{hoffmann11}
+Hoffmann A, Nettels D, Clark J, Borgia A, Radford SE, et~al. (2011) Quantifying
+  heterogeneity and conformational dynamics from single molecule fret of
+  diffusing molecules: recurrence analysis of single particles (rasp).
+\newblock Phys Chem Chem Phys 13: 1857--1871.
+\bibAnnoteFile{hoffmann11}
+
+\bibitem{murphy14}
+Murphy RR, Danezis G, Horrocks MH, Jackson SE, Klenerman D (2014) Bayesian
+  inference of accurate population sizes and fret efficiencies from single
+  diffusing biomolecules.
+\newblock Anal Chem (submitted April 2014) : ?--?
+\bibAnnoteFile{murphy14}
+
+\end{thebibliography}

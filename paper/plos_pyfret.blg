@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: plos_pyfret.aux
+The style file: plos2009.bst
+Database file #1: plos_pyfret.bib
+Warning--string name "--" is undefined
+--line 1604 of file plos_pyfret.bib
+You've used 19 entries,
+            2441 wiz_defined-function locations,
+            675 strings with 8089 characters,
+and the built_in function-call counts, 16794 in all, are:
+= -- 1545
+> -- 304
+< -- 0
++ -- 152
+- -- 76
+* -- 1414
+:= -- 2024
+add.period$ -- 38
+call.type$ -- 19
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 1620
+empty$ -- 1732
+format.name$ -- 90
+if$ -- 3726
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 210
+newline$ -- 110
+num.names$ -- 19
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 2451
+swap$ -- 414
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 131
+width$ -- 21
+write$ -- 221
+(There was 1 warning)
