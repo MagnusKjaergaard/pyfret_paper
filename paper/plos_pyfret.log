@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  15 JAN 2015 18:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  15 JAN 2015 22:48
 entering extended mode
  %&-line parsing enabled.
 **plos_pyfret.tex
@@ -288,12 +288,6 @@ Package caption Info: listings package is loaded.
 
 LaTeX Warning: Label `eq:Eprod' multiply defined.
 
-
-LaTeX Warning: Label `fig:fig1_workflow' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig2_plots' multiply defined.
-
 )
 \openout1 = `plos_pyfret.aux'.
 
@@ -366,7 +360,12 @@ LaTeX Warning: Reference `fig:fig1_schematic' on page 2 undefined on input line
 
 LaTeX Warning: Reference `ef:Eprod' on page 2 undefined on input line 148.
 
-[2] [3] [4] [5]
+[2]
+
+LaTeX Warning: Reference `fig:fig1_workflow' on page 3 undefined on input line 
+191.
+
+[3] [4] [5]
 Overfull \hbox (36.47406pt too wide) in paragraph at lines 316--317
 \OT1/cmr/m/n/10 pyFRET doc-u-men-ta-tion ([]$\OT1/cmtt/m/n/10 http : / / pyfret
  . readthedocs . org / en / latest / tutorial . html # installing-[]pyfret$[]\O
@@ -376,76 +375,113 @@ T1/cmr/m/n/10 ).
 
 LaTeX Warning: Reference `tab:duplexes' on page 6 undefined on input line 322.
 
-[6] [7] (./plos_pyfret.bbl [8]
+[6]
+
+LaTeX Warning: Reference `tab:acceptor' on page 7 undefined on input line 346.
+
+
+LaTeX Warning: Reference `fig:fig2_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:fig3_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:fig2_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:fig3_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:fig2_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:fig3_plots' on page 7 undefined on input line 346
+.
+
+
+LaTeX Warning: Reference `fig:XXX_MISSING' on page 7 undefined on input line 34
+9.
+
+[7]
+
+LaTeX Warning: Reference `tab:bin-times' on page 8 undefined on input line 354.
+
+
+[8] (./plos_pyfret.bbl [9]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-)
+ [10])
 
 pdfTeX warning: pdflatex (file ./Fig1_schematic.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<Fig1_schematic.pdf, id=194, 411.46555pt x 283.10143pt>
+<Fig1_schematic.pdf, id=216, 411.46555pt x 283.10143pt>
 File: Fig1_schematic.pdf Graphic file (type pdf)
 
 <use Fig1_schematic.pdf>
 
 pdfTeX warning: pdflatex (file ./workflow_new.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<workflow_new.pdf, id=197, 727.24377pt x 476.61151pt>
+<workflow_new.pdf, id=219, 727.24377pt x 476.61151pt>
 File: workflow_new.pdf Graphic file (type pdf)
  <use workflow_new.pdf>
 
 pdfTeX warning: pdflatex (file ./6bp_example.pdf): PDF inclusion: found PDF ver
 sion <1.5>, but at most version <1.4> allowed
-<6bp_example.pdf, id=200, 583.03845pt x 512.69113pt>
+<6bp_example.pdf, id=222, 583.03845pt x 512.69113pt>
 File: 6bp_example.pdf Graphic file (type pdf)
  <use 6bp_example.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_AND.pdf): PDF inclusion: found PDF versio
 n <1.5>, but at most version <1.4> allowed
-<FRET_AND.pdf, id=203, 824.79565pt x 420.42783pt>
+<FRET_AND.pdf, id=225, 824.79565pt x 420.42783pt>
 File: FRET_AND.pdf Graphic file (type pdf)
  <use FRET_AND.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_ALEX.pdf): PDF inclusion: found PDF versi
 on <1.5>, but at most version <1.4> allowed
-<FRET_ALEX.pdf, id=206, 845.04686pt x 597.50786pt>
+<FRET_ALEX.pdf, id=228, 845.04686pt x 597.50786pt>
 File: FRET_ALEX.pdf Graphic file (type pdf)
  <use FRET_ALEX.pdf>
 
 pdfTeX warning: pdflatex (file ./Bp_vs_E.pdf): PDF inclusion: found PDF version
  <1.5>, but at most version <1.4> allowed
-<Bp_vs_E.pdf, id=209, 1798.72pt x 478.00066pt>
+<Bp_vs_E.pdf, id=231, 1798.72pt x 478.00066pt>
 File: Bp_vs_E.pdf Graphic file (type pdf)
  <use Bp_vs_E.pdf>
 
-pdfTeX warning: pdflatex (file ./heatmaps.pdf): PDF inclusion: found PDF versio
-n <1.5>, but at most version <1.4> allowed
-<heatmaps.pdf, id=212, 1223.03679pt x 924.74623pt>
-File: heatmaps.pdf Graphic file (type pdf)
- <use heatmaps.pdf>
-<RASP_performance.pdf, id=215, 578.16pt x 433.62pt>
-File: RASP_performance.pdf Graphic file (type pdf)
- <use RASP_performance.pdf>
-
 pdfTeX warning: pdflatex (file ./window_effect.pdf): PDF inclusion: found PDF v
 ersion <1.5>, but at most version <1.4> allowed
-<window_effect.pdf, id=218, 1135.44196pt x 468.26794pt>
+<window_effect.pdf, id=234, 1752.14598pt x 468.26794pt>
 File: window_effect.pdf Graphic file (type pdf)
 
 <use window_effect.pdf>
-Overfull \hbox (42.22855pt too wide) in paragraph at lines 458--465
+
+pdfTeX warning: pdflatex (file ./heatmaps.pdf): PDF inclusion: found PDF versio
+n <1.5>, but at most version <1.4> allowed
+<heatmaps.pdf, id=237, 1223.03679pt x 924.74623pt>
+File: heatmaps.pdf Graphic file (type pdf)
+ <use heatmaps.pdf>
+<RASP_performance.pdf, id=240, 578.16pt x 433.62pt>
+File: RASP_performance.pdf Graphic file (type pdf)
+ <use RASP_performance.pdf>
+Overfull \hbox (42.22855pt too wide) in paragraph at lines 480--487
 [][] 
  []
 
 
-Overfull \hbox (31.20087pt too wide) in paragraph at lines 474--485
+Overfull \hbox (31.20087pt too wide) in paragraph at lines 496--507
 [][] 
  []
 
-[9] [10 <./Fig1_schematic.pdf>] [11 <./workflow_new.pdf>] [12 <./6bp_example.pd
-f>] [13 <./FRET_AND.pdf>] [14 <./FRET_ALEX.pdf> <./Bp_vs_E.pdf>] [15 <./heatmap
-s.pdf>] [16 <./RASP_performance.pdf>] [17 <./window_effect.pdf>]
-(./plos_pyfret.aux)
+[11 <./Fig1_schematic.pdf>] [12 <./workflow_new.pdf>] [13 <./6bp_example.pdf>]
+[14 <./FRET_AND.pdf>] [15 <./FRET_ALEX.pdf> <./Bp_vs_E.pdf>] [16 <./window_effe
+ct.pdf>] [17 <./heatmaps.pdf>] [18 <./RASP_performance.pdf>] (./plos_pyfret.aux
+)
 
 LaTeX Warning: There were undefined references.
 
@@ -454,13 +490,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7537 strings out of 495061
- 109448 string characters out of 1182621
+ 7555 strings out of 495061
+ 109728 string characters out of 1182621
  223206 words of memory out of 3000000
- 10461 multiletter control sequences out of 15000+50000
+ 10472 multiletter control sequences out of 15000+50000
  7844 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,40p,1149b,1684s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,40p,1372b,1684s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
@@ -472,9 +508,9 @@ xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmtt9.pfb>
-Output written on plos_pyfret.pdf (17 pages, 3976115 bytes).
+Output written on plos_pyfret.pdf (18 pages, 4008958 bytes).
 PDF statistics:
- 6951 PDF objects out of 7423 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
+ 6994 PDF objects out of 7423 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
