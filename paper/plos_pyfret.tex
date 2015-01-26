@@ -318,13 +318,19 @@ pyFRET is written in Python. Both python 2 (v2.7) and python 3 (v3.3) are suppor
 The lack of Open Source software in the smFRET community has led to a proliferation of esoteric file-types used for data collection and storage. To make pyFRET as usable as possible for a wide range of smFRET researchers, we provide file parsers for simple .csv and .txt file formats, as well as our custom binary format. The pyFRET data structures can be initialised using simple python arrays of time-binned photons, for users whose file format is not currently supported. The tutorial and supplementary information provide example scripts for parsing common filetypes into pyFRET objects.
 
 \section*{Experimental Methods}
-\subsection*{Analysis of DNA Duplexes}
+\subsection*{Benchmarking Using Simulated Datasets}
+To test the ability of the fitting algorithms to distinguish fluorescent populations with similar FRET efficiencies, we generated simulated datasets consisting of mixtures of FRET bursts with a known FRET efficiency and population size. These bursts were then fitted using pyFRET's two component mixture model and the results compared to the known input FRET efficiencies and population sizes. The code used to generate and fit these datasets can be found XXXX. 
+
+\subsection*{Showcasing the simple FRET Algorithms}
 We tested the pyFRET library using DNA duplexes dual-labelled with Alexa Fluor 488 and Alexa Fluor 647. The duplex sequences and labelling sites are shown in Table~\ref{tab:duplexes}. Labelled duplexes were diluted to a concentration of 50 pM in TEN buffer (10 mM Tris, 1mM EDTA, 100 mM Nacl), pH 8.0, containing 0.0001 \% Tween-20. FRET data were collected for 15 minutes using continuous excitation at 488 nm at a power of 80 mW. Collected photons were binned online in intervals of 1 ms and stored in files of 10000 bins. ALEX data were collected for 15 minutes using alternating excitation at 488 and 640 nm, with respective laser powers of 80 and 70 mW, and a modulation rate of 0.1 ms, a dead-time of 0.1 $\mu$s and a delay compensation of 3 $\mu$s. ALEX data were then binned in intervals of 1 ms. The scripts and configuration files used to analyse these data using pyFRET can be found in the supplementary material.
 
-\subsection*{Testing the Burst Search Algorithms}
-To test the burst search algorithms, we collected data under both ALEX and FRET conditions. Data were collected for 10 minutes, using laser powers of 130 $\mu$W in both donor and acceptor excitation. For FRET data collection, laser illumination by the donor laser was continuous and the data were binned online into time bins of 50 $\mu$s, roughly 5 \% of the duration of the average burst from a freely diffusing molecule. The acceptor laser was not used. For ALEX data collection, photons were similarly binned online into time bins 50 $\mu$s, but the laser modulation rate was increased to 10 $\mu$s, with a dead-time of 0.1 $\mu$s and a delay compensation of 3 $\mu$s, corresponding to 5 modulations per short time bin. 
+\subsection*{Showcasing the Burst Search Algorithms}
+To test the burst search algorithms, we collected data under both ALEX and FRET conditions. Data were collected for 10 minutes, using laser powers of 130 $\mu$W in both donor and acceptor excitation. For FRET data collection, laser illumination by the donor laser was continuous and the data were binned online into time bins of 50 $\mu$s, roughly 5 \% of the duration of the average burst from a freely diffusing molecule. The acceptor laser was not used. For ALEX data collection, photons were similarly binned online into time bins of 50 $\mu$s length, but the laser modulation rate was increased to 50 $\mu$s, with a dead-time of 0.1 $\mu$s and a delay compensation of 3 $\mu$s, corresponding to 2 modulations per short time bin. 
 
 To evaluate the effect of bin-time on performance of the burst search algorithms, a further dataset was collected using FRET excitation on the 6 bp duplex. For this dataset, data were collected for 10 minutes using the 488 nm laser at 130 $\mu$W. Data were binned into time bins of 10 $\mu$s, allowing for re-binning into longer time-bins as required.
+
+\subsection*{Performance Analysis Using Mixtures of DNA Duplexes}
+To test the accuracy of the burst search algorithms, we collected ALEX data from mixtures of two DNA duplexes at known concentration ratios. The 4, 8 and 12 bp duplexes were used. Samples were prepared containing a mixture of two duplexes in TEN buffer with a total DNA concentration of 80 pM, divided in either a 3 : 1 ratio (high concentration 60 pM, low concentration 20 pM) or a 1 : 1 ratio (both components 40 pM). Data were collected under ALEX excitation for 10 minutes, using the conditions described above.  
 
 
 \subsection*{Testing the RASP Algorithm}
@@ -423,6 +429,16 @@ RRM would like to thank BBSRC for PhD funding.
       \label{fig:fig5_ALEX_plots}
    \end{center}
 \end{figure}
+
+\begin{figure}[!ht]
+   \begin{center}
+      \includegraphics*[clip=true, width=6in]{benchmarking.pdf}
+      \caption{{\bf Benchmarking the gaussian fitting process using simulated data.} A) Fitting a two-component Gaussian mixture to a simulated dataset simulating a 1:1 ratio of FRET populations, with FRET efficiencies of 0.4 and 0.6. The two peaks are easily distinguished and fitted correctly. B) Fitting a two-component Gaussian mixture to a simulated dataset simulating a 1:1 ratio of FRET populations, with FRET efficiencies of 0.4 and 0.5. There is significant overlap between the two peaks, so they cannot be distinguished by the fitting algorithm. C) Heatmap showing the relationship between partner FRET efficiency and the error in calculated FRET efficiency. Gaussian fits of datasets where the FRET efficiencies of the two peaks are extremely close to each other are distorted towards an intermediate value. D) One-dimensional representation of the heatmap shown in C), showing the distortion in calculated FRET efficiency when the two components of the mixture have very similar FRET efficiencies.}
+      \label{fig:fig5_ALEX_plots}
+   \end{center}
+\end{figure}
+
+
 
 \begin{figure}[!ht]
    \begin{center}
