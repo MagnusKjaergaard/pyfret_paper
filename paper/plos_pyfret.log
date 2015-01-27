@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  27 JAN 2015 17:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  27 JAN 2015 20:30
 entering extended mode
  %&-line parsing enabled.
 **plos_pyfret.tex
@@ -352,71 +352,71 @@ Missing character: There is no ¶ in font cmr10!
 
 pdfTeX warning: pdflatex (file ./Fig1_schematic.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<Fig1_schematic.pdf, id=253, 411.46555pt x 283.10143pt>
+<Fig1_schematic.pdf, id=259, 411.46555pt x 283.10143pt>
 File: Fig1_schematic.pdf Graphic file (type pdf)
 
 <use Fig1_schematic.pdf>
 
 pdfTeX warning: pdflatex (file ./workflow_new.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<workflow_new.pdf, id=256, 727.24377pt x 476.61151pt>
+<workflow_new.pdf, id=262, 727.24377pt x 476.61151pt>
 File: workflow_new.pdf Graphic file (type pdf)
  <use workflow_new.pdf>
 
 pdfTeX warning: pdflatex (file ./6bp_example.pdf): PDF inclusion: found PDF ver
 sion <1.5>, but at most version <1.4> allowed
-<6bp_example.pdf, id=259, 583.03845pt x 512.69113pt>
+<6bp_example.pdf, id=265, 583.03845pt x 512.69113pt>
 File: 6bp_example.pdf Graphic file (type pdf)
  <use 6bp_example.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_AND.pdf): PDF inclusion: found PDF versio
 n <1.5>, but at most version <1.4> allowed
-<FRET_AND.pdf, id=262, 824.79565pt x 420.42783pt>
+<FRET_AND.pdf, id=268, 824.79565pt x 420.42783pt>
 File: FRET_AND.pdf Graphic file (type pdf)
  <use FRET_AND.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_ALEX.pdf): PDF inclusion: found PDF versi
 on <1.5>, but at most version <1.4> allowed
-<FRET_ALEX.pdf, id=265, 845.04686pt x 597.50786pt>
+<FRET_ALEX.pdf, id=271, 845.04686pt x 597.50786pt>
 File: FRET_ALEX.pdf Graphic file (type pdf)
  <use FRET_ALEX.pdf>
 
 pdfTeX warning: pdflatex (file ./benchmarking.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<benchmarking.pdf, id=268, 1180.41pt x 924.26917pt>
+<benchmarking.pdf, id=274, 1180.41pt x 924.26917pt>
 File: benchmarking.pdf Graphic file (type pdf)
  <use benchmarking.pdf>
 
 pdfTeX warning: pdflatex (file ./burst_search.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<burst_search.pdf, id=271, 3031.9793pt x 1627.26169pt>
+<burst_search.pdf, id=277, 3031.9793pt x 1627.26169pt>
 File: burst_search.pdf Graphic file (type pdf)
  <use burst_search.pdf>
 
 pdfTeX warning: pdflatex (file ./Bp_vs_E.pdf): PDF inclusion: found PDF version
  <1.5>, but at most version <1.4> allowed
-<Bp_vs_E.pdf, id=274, 1798.72pt x 478.00066pt>
+<Bp_vs_E.pdf, id=280, 1798.72pt x 478.00066pt>
 File: Bp_vs_E.pdf Graphic file (type pdf)
  <use Bp_vs_E.pdf>
 
 pdfTeX warning: pdflatex (file ./window_effect.pdf): PDF inclusion: found PDF v
 ersion <1.5>, but at most version <1.4> allowed
-<window_effect.pdf, id=277, 1782.66pt x 933.07237pt>
+<window_effect.pdf, id=283, 1782.66pt x 933.07237pt>
 File: window_effect.pdf Graphic file (type pdf)
  <use window_effect.pdf>
 
 pdfTeX warning: pdflatex (file ./ratios.pdf): PDF inclusion: found PDF version 
 <1.5>, but at most version <1.4> allowed
-<ratios.pdf, id=280, 1180.41pt x 494.6549pt>
+<ratios.pdf, id=286, 1180.41pt x 936.30498pt>
 File: ratios.pdf Graphic file (type pdf)
  <use ratios.pdf>
 
 pdfTeX warning: pdflatex (file ./heatmaps.pdf): PDF inclusion: found PDF versio
 n <1.5>, but at most version <1.4> allowed
-<heatmaps.pdf, id=283, 1223.03679pt x 924.74623pt>
+<heatmaps.pdf, id=289, 1223.03679pt x 924.74623pt>
 File: heatmaps.pdf Graphic file (type pdf)
  <use heatmaps.pdf>
-<RASP_performance.pdf, id=286, 578.16pt x 433.62pt>
+<RASP_performance.pdf, id=292, 578.16pt x 433.62pt>
 File: RASP_performance.pdf Graphic file (type pdf)
  <use RASP_performance.pdf>
 Overfull \hbox (42.22855pt too wide) in paragraph at lines 517--524
@@ -436,11 +436,11 @@ ios.pdf>] [22 <./heatmaps.pdf>] [23 <./RASP_performance.pdf>]
 Here is how much of TeX's memory you used:
  7580 strings out of 495061
  110078 string characters out of 1182621
- 224188 words of memory out of 3000000
+ 224379 words of memory out of 3000000
  10480 multiletter control sequences out of 15000+50000
  7844 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,10n,40p,1646b,1684s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,40p,1470b,1684s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -451,9 +451,9 @@ fonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on plos_pyfret.pdf (23 pages, 4679558 bytes).
+Output written on plos_pyfret.pdf (23 pages, 4713270 bytes).
 PDF statistics:
- 11063 PDF objects out of 12825 (max. 8388607)
+ 11249 PDF objects out of 12825 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
