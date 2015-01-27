@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  26 JAN 2015 18:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.23)  27 JAN 2015 15:04
 entering extended mode
  %&-line parsing enabled.
 **plos_pyfret.tex
@@ -284,14 +284,7 @@ Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \c@ContinuedFloat=\count115
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-) (./plos_pyfret.aux
-
-LaTeX Warning: Label `eq:Eprod' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig5_ALEX_plots' multiply defined.
-
-)
+) (./plos_pyfret.aux)
 \openout1 = `plos_pyfret.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
@@ -308,7 +301,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen127
@@ -340,185 +334,132 @@ LaTeX Info: Redefining \pageref on input line 87.
 \c@lstlisting=\count122
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: Reference `fig:fig1_schematic' on page 1 undefined on input line
- 137.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-
-LaTeX Warning: Reference `fig:fig1_schematic' on page 2 undefined on input line
- 146.
-
-
-LaTeX Warning: Reference `ef:Eprod' on page 2 undefined on input line 148.
-
-[2]
-
-LaTeX Warning: Reference `fig:fig1_workflow' on page 3 undefined on input line 
-191.
-
-[3] [4] [5]
-Overfull \hbox (36.47406pt too wide) in paragraph at lines 316--317
+] [2] [3] [4] [5]
+Overfull \hbox (36.47406pt too wide) in paragraph at lines 312--313
 \OT1/cmr/m/n/10 pyFRET doc-u-men-ta-tion ([]$\OT1/cmtt/m/n/10 http : / / pyfret
  . readthedocs . org / en / latest / tutorial . html # installing-[]pyfret$[]\O
 T1/cmr/m/n/10 ).
  []
 
-[6]
-
-LaTeX Warning: Reference `tab:duplexes' on page 7 undefined on input line 325.
-
-[7]
-
-LaTeX Warning: Reference `tab:acceptor' on page 8 undefined on input line 352.
-
-
-LaTeX Warning: Reference `fig:fig2_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:fig3_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:fig2_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:fig3_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:fig2_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:fig3_plots' on page 8 undefined on input line 352
-.
-
-
-LaTeX Warning: Reference `fig:XXX_MISSING' on page 8 undefined on input line 35
-5.
-
-
-LaTeX Warning: Reference `tab:bin-times' on page 8 undefined on input line 360.
-
-
-[8] [9] (./plos_pyfret.bbl [10]
+[6] [7] [8] [9] (./plos_pyfret.bbl [10]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 )
 
 pdfTeX warning: pdflatex (file ./Fig1_schematic.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<Fig1_schematic.pdf, id=216, 411.46555pt x 283.10143pt>
+<Fig1_schematic.pdf, id=237, 411.46555pt x 283.10143pt>
 File: Fig1_schematic.pdf Graphic file (type pdf)
 
 <use Fig1_schematic.pdf>
 
 pdfTeX warning: pdflatex (file ./workflow_new.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<workflow_new.pdf, id=219, 727.24377pt x 476.61151pt>
+<workflow_new.pdf, id=240, 727.24377pt x 476.61151pt>
 File: workflow_new.pdf Graphic file (type pdf)
  <use workflow_new.pdf>
 
 pdfTeX warning: pdflatex (file ./6bp_example.pdf): PDF inclusion: found PDF ver
 sion <1.5>, but at most version <1.4> allowed
-<6bp_example.pdf, id=222, 583.03845pt x 512.69113pt>
+<6bp_example.pdf, id=243, 583.03845pt x 512.69113pt>
 File: 6bp_example.pdf Graphic file (type pdf)
  <use 6bp_example.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_AND.pdf): PDF inclusion: found PDF versio
 n <1.5>, but at most version <1.4> allowed
-<FRET_AND.pdf, id=225, 824.79565pt x 420.42783pt>
+<FRET_AND.pdf, id=246, 824.79565pt x 420.42783pt>
 File: FRET_AND.pdf Graphic file (type pdf)
  <use FRET_AND.pdf>
 
 pdfTeX warning: pdflatex (file ./FRET_ALEX.pdf): PDF inclusion: found PDF versi
 on <1.5>, but at most version <1.4> allowed
-<FRET_ALEX.pdf, id=228, 845.04686pt x 597.50786pt>
+<FRET_ALEX.pdf, id=249, 845.04686pt x 597.50786pt>
 File: FRET_ALEX.pdf Graphic file (type pdf)
  <use FRET_ALEX.pdf>
 
 pdfTeX warning: pdflatex (file ./benchmarking.pdf): PDF inclusion: found PDF ve
 rsion <1.5>, but at most version <1.4> allowed
-<benchmarking.pdf, id=231, 1180.41pt x 924.26917pt>
+<benchmarking.pdf, id=252, 1180.41pt x 924.26917pt>
 File: benchmarking.pdf Graphic file (type pdf)
  <use benchmarking.pdf>
 
+pdfTeX warning: pdflatex (file ./burst_search.pdf): PDF inclusion: found PDF ve
+rsion <1.5>, but at most version <1.4> allowed
+<burst_search.pdf, id=255, 3031.9793pt x 1627.26169pt>
+File: burst_search.pdf Graphic file (type pdf)
+ <use burst_search.pdf>
+
 pdfTeX warning: pdflatex (file ./Bp_vs_E.pdf): PDF inclusion: found PDF version
  <1.5>, but at most version <1.4> allowed
-<Bp_vs_E.pdf, id=234, 1798.72pt x 478.00066pt>
+<Bp_vs_E.pdf, id=258, 1798.72pt x 478.00066pt>
 File: Bp_vs_E.pdf Graphic file (type pdf)
  <use Bp_vs_E.pdf>
 
+pdfTeX warning: pdflatex (file ./ratios.pdf): PDF inclusion: found PDF version 
+<1.5>, but at most version <1.4> allowed
+<ratios.pdf, id=261, 1180.41pt x 494.6549pt>
+File: ratios.pdf Graphic file (type pdf)
+ <use ratios.pdf>
+
 pdfTeX warning: pdflatex (file ./window_effect.pdf): PDF inclusion: found PDF v
 ersion <1.5>, but at most version <1.4> allowed
-<window_effect.pdf, id=237, 1782.66pt x 933.07237pt>
+<window_effect.pdf, id=264, 1782.66pt x 933.07237pt>
 File: window_effect.pdf Graphic file (type pdf)
  <use window_effect.pdf>
 
 pdfTeX warning: pdflatex (file ./heatmaps.pdf): PDF inclusion: found PDF versio
 n <1.5>, but at most version <1.4> allowed
-<heatmaps.pdf, id=240, 1223.03679pt x 924.74623pt>
+<heatmaps.pdf, id=267, 1223.03679pt x 924.74623pt>
 File: heatmaps.pdf Graphic file (type pdf)
  <use heatmaps.pdf>
-<RASP_performance.pdf, id=243, 578.16pt x 433.62pt>
+<RASP_performance.pdf, id=270, 578.16pt x 433.62pt>
 File: RASP_performance.pdf Graphic file (type pdf)
  <use RASP_performance.pdf>
-Overfull \hbox (42.22855pt too wide) in paragraph at lines 496--503
+Overfull \hbox (42.22855pt too wide) in paragraph at lines 513--520
 [][] 
  []
 
 
-Overfull \hbox (31.20087pt too wide) in paragraph at lines 512--523
+Overfull \hbox (31.20087pt too wide) in paragraph at lines 529--540
 [][] 
  []
 
 [11] [12 <./Fig1_schematic.pdf>] [13 <./workflow_new.pdf>] [14 <./6bp_example.p
 df>] [15 <./FRET_AND.pdf>] [16 <./FRET_ALEX.pdf>] [17 <./benchmarking.pdf>]
-[18 <./Bp_vs_E.pdf> <./window_effect.pdf>] [19 <./heatmaps.pdf>] [20 <./RASP_pe
-rformance.pdf>] (./plos_pyfret.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[18 <./burst_search.pdf> <./Bp_vs_E.pdf>] [19 <./ratios.pdf>] [20 <./window_eff
+ect.pdf>] [21 <./heatmaps.pdf>] [22 <./RASP_performance.pdf>]
+(./plos_pyfret.aux) ) 
 Here is how much of TeX's memory you used:
- 7565 strings out of 495061
- 109880 string characters out of 1182621
- 223206 words of memory out of 3000000
- 10476 multiletter control sequences out of 15000+50000
+ 7577 strings out of 495061
+ 110049 string characters out of 1182621
+ 222188 words of memory out of 3000000
+ 10480 multiletter control sequences out of 15000+50000
  7844 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,10n,40p,1372b,1684s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmtt9.pfb>
-Output written on plos_pyfret.pdf (20 pages, 4255871 bytes).
+ 38i,10n,40p,1372b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on plos_pyfret.pdf (22 pages, 4675595 bytes).
 PDF statistics:
- 8574 PDF objects out of 8907 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11051 PDF objects out of 12825 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
