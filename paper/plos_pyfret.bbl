@@ -18,6 +18,11 @@ Forster T (1948) Zweischenmolekulare energiewanderung undfluoreszenz.
 \newblock Annalen der Physik 2: 55--75.
 \bibAnnoteFile{forster48}
 
+\bibitem{stryer67}
+Stryer L, Haugland RP (1967) {{E}nergy transfer: a spectroscopic ruler}.
+\newblock Proc Natl Acad Sci USA 58: 719--726.
+\bibAnnoteFile{stryer67}
+
 \bibitem{ha96}
 Ha T, Enderle T, Ogletree DF, Chemla DS, Selvin PR, et~al. ({1996}) {Probing
   the interaction between two single molecules: Fluorescence resonance energy
